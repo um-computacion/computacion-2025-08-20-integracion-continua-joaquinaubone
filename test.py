@@ -5,5 +5,10 @@ class TestPrueba(unittest.TestCase):
     def test_suma():
         def test_suma(self):
             self.assertequeals(suma(2,3),5)
+
+    def test_resta():
+        def test_suma(self):
+            self.assertequeals(suma(5,-3),2)
+            
 if __name__== "__main__":
     print(suma(2,3))
